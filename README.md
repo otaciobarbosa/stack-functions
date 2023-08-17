@@ -1,6 +1,7 @@
 # Stack Functions
 
 [![GitHub License](https://img.shields.io/github/license/otaciobarbosa/stack-functions)](LICENSE)
+[![npm version](https://img.shields.io/npm/v/stack-functions)](https://www.npmjs.com/package/stack-functions)
 
 Uma coleção de funções utilitárias para formatar strings e valores monetários em JavaScript.
 
@@ -76,6 +77,3 @@ Você é livre para:
 Sob as seguintes condições:
 
 - Atribuição — Você deve dar o crédito apropriado, prover um link para a licença e indicar se mudanças foram feitas. Você pode fazê-lo de qualquer maneira razoável, mas não de maneira que sugira que o licenciador endossa você ou o seu uso.
-
----
-```
