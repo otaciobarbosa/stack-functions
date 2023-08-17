@@ -58,6 +58,52 @@ const { sfCcyFormat } = require('stack-functions');
 console.log(sfCcyFormat(1234.5678)); // 1234.57
 ```
 
+## Exemplos de Uso:
+
+### Express.js
+
+```javascript
+const express = require('express');
+const { sfCcyBRLFormat } = require('stack-functions');
+
+const app = express();
+
+app.get('/', (req, res) => {
+  const value = 1234.56;
+  const formattedValue = sfCcyBRLFormat(value);
+
+  res.send(`Formatted value: ${formattedValue}`);
+});
+
+app.listen(3000, () => {
+  console.log('Server is running on port 3000');
+});
+```
+
+
+### React.js
+
+```javascript
+import React from 'react';
+import { sfToLowerCase, sfToUpperCase } from 'stack-functions';
+
+const MyComponent = () => {
+  const originalString = 'Hello World';
+  const lowerCaseString = sfToLowerCase(originalString);
+  const upperCaseString = sfToUpperCase(originalString);
+
+  return (
+    <div>
+      <p>Original: {originalString}</p>
+      <p>Lowercase: {lowerCaseString}</p>
+      <p>Uppercase: {upperCaseString}</p>
+    </div>
+  );
+};
+
+export default MyComponent;
+```
+
 ## Contribuição
 
 Sinta-se à vontade para contribuir com novas funcionalidades, correções de bugs ou melhorias! Basta seguir estas etapas:

@@ -1,6 +1,6 @@
 {
   "name": "stack-functions",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Function stack for development support",
   "main": "index.js",
   "author": "Otácio Barbosa",
