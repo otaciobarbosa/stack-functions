@@ -1,6 +1,6 @@
 # Stack Functions
 
-[![GitHub License](https://img.shields.io/github/license/seu-usuario/stack-functions)](LICENSE)
+[![GitHub License](https://img.shields.io/github/license/otaciobarbosa/stack-functions)](LICENSE)
 
 Uma coleção de funções utilitárias para formatar strings e valores monetários em JavaScript.
 
