@@ -80,6 +80,25 @@ app.listen(3000, () => {
 });
 ```
 
+### Express.js Versão Minificada:
+
+```javascript
+const express = require('express');
+const { sfCcyBRLFormat } = require('stack-functions/dist/sfCcyBRLFormat.min');
+
+const app = express();
+
+app.get('/', (req, res) => {
+  const value = 1234.56;
+  const formattedValue = sfCcyBRLFormat(value);
+
+  res.send(`Formatted value: ${formattedValue}`);
+});
+
+app.listen(3000, () => {
+  console.log('Server is running on port 3000');
+});
+```
 
 ### React.js
 
@@ -103,6 +122,35 @@ const MyComponent = () => {
 
 export default MyComponent;
 ```
+
+### React.js Versão Minificada:
+
+```javascript
+import React from 'react';
+import { sfToLowerCase } from 'stack-functions/dist/sfToLowerCase.min';
+import { sfToUpperCase } from 'stack-functions/dist/sfToUpperCase.min';
+
+const MyComponent = () => {
+  const originalString = 'Hello World';
+  const lowerCaseString = sfToLowerCase(originalString);
+  const upperCaseString = sfToUpperCase(originalString);
+
+  return (
+    <div>
+      <p>Original: {originalString}</p>
+      <p>Lowercase: {lowerCaseString}</p>
+      <p>Uppercase: {upperCaseString}</p>
+    </div>
+  );
+};
+
+export default MyComponent;
+```
+
+## Uso das Versões Minificadas
+
+Ao utilizar nossas funções, você tem a opção de escolher entre as versões originais ou as versões minificadas. As versões minificadas têm nomes que terminam com `.min.js` e são otimizadas para reduzir o tamanho do pacote e melhorar o desempenho.
+
 
 ## Contribuição
 
