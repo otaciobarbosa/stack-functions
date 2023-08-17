@@ -1,7 +1,10 @@
 # Stack Functions
 
-[![GitHub License](https://img.shields.io/github/license/otaciobarbosa/stack-functions)](LICENSE)
+[![GitHub License](https://img.shields.io/github/license/seu-usuario/stack-functions)](LICENSE)
 [![npm version](https://img.shields.io/npm/v/stack-functions)](https://www.npmjs.com/package/stack-functions)
+[![Email](https://img.shields.io/badge/Email-contato%40otaciobarbosa.com.br-blue)](mailto:contato@otaciobarbosa.com.br)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-ot%C3%A1ciobarbosa-blue)](https://www.linkedin.com/in/ot%C3%A1ciobarbosa/)
+
 
 Uma coleção de funções utilitárias para formatar strings e valores monetários em JavaScript.
 
