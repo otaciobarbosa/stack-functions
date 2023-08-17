@@ -1,0 +1,11 @@
+{
+  "name": "stack-functions",
+  "version": "1.0.0",
+  "description": "Function stack for development support",
+  "main": "index.js",
+  "author": "Otácio Barbosa",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
